@@ -14,20 +14,93 @@ As a Data analyst on this project, my task is to build this dashboard to track t
 
 <h2>Data Model</h2>
 
-![Data_model](https://user-images.githubusercontent.com/108889874/197377470-c41271a6-a075-4645-81ee-6c9fed4a455d.png)
+![data model_powerbi](https://github.com/rajmehta26/FMCG-Supply-Chain-Analysis/assets/152624212/63f6f3ba-5e5b-4268-a9f4-8a9ed09cb9da)
+
 
 <h2>Dashboard</h2>
 
-![P1_Dashboard](https://user-images.githubusercontent.com/108889874/197377853-559efb89-1df7-4ac3-8820-7a7d85aafb40.png)
+![overview_powerbi](https://github.com/rajmehta26/FMCG-Supply-Chain-Analysis/assets/152624212/565e021e-a21f-4ff8-b57d-23be2f1726ec)
 
-![P2_Dashboard](https://user-images.githubusercontent.com/108889874/197377860-6985a042-9960-4147-9832-6e9181621af1.png)
-
-![P3_Dashboard](https://user-images.githubusercontent.com/108889874/197377872-ef5b8888-05eb-4c5a-8041-66b0a8f3c53f.png)
+![Citywise analysis_powerbi](https://github.com/rajmehta26/FMCG-Supply-Chain-Analysis/assets/152624212/57e8c68b-8be1-45f3-8a78-f482bf05ea42)
 
 
 <h2>Business Insights</h2>
 
-![C1_Dashboard](https://user-images.githubusercontent.com/108889874/197377932-af6c07a6-0853-4502-be40-6d1c9b5d4bbd.png)
+<h3> KPI Insights </h3>
 
-![C2_Dashboard](https://user-images.githubusercontent.com/108889874/197377940-aa578757-c9c1-4f7d-aa0b-79275e43ee44.png)
+- At 71% On-Time rate, it is well below taregt rate of 86%
+- The In-Full rate achieved is 66% against the target of 77%
+- The overall On Time In Full rate at 48% is also below the set target of 66%
+- The current Line Fill Rate (LIFR) and Volume Fill Rate (VOFR) stands at 66% and 96.6% respectively
 
+ <h3> City & Customer Insights </h3>
+
+<table>
+  <tr>
+    <th> Parameter </th>
+    <th> Ahmedabad </th>
+    <th> Surat </th>
+    <th> Vadodara </th> 
+    <th> Overall </th>
+  </tr>
+  <tr>
+    <th> Top Customer </th>
+    <th> Rel Fresh (8.6%) </th>
+    <th> Lotus Mart (9.5%) </th>
+    <th> Expert Mart (8.7%) </th> 
+    <th> Vijay Stores (8.8%) </th> 
+  </tr>
+  <tr>
+    <th> Top Product </th>
+    <th> AM Milk 100 (9.7%) </th>
+    <th> AM Milk 250 (9.6%) </th>
+    <th> AM Milk 250 (9.6%) </th> 
+    <th> AM Milk 250 (9.5%) </th> 
+  </tr>
+  <tr>
+    <th> Top Category </th>
+    <th> Dairy (78%)  </th>
+    <th> Dairy (78%) </th>
+    <th> Dairy (78%) </th> 
+    <th> Dairy (78%) </th> 
+  </tr>
+  <tr>
+    <th> OT % / Target </th>
+    <th> 70% | 86% </th>
+    <th> 74% | 86% </th>
+    <th> 70% | 86%  </th> 
+    <th> 70% | 86%  </th> 
+  </tr>
+  <tr>
+    <th> IF % / Target </th>
+    <th> 68% | 77% </th>
+    <th> 67% | 77%  </th>
+    <th> 64% | 75% </th> 
+    <th> 64% | 75% </th> 
+  </tr>
+  <tr>
+    <th> OTIF % / Target </th>
+    <th> 48% | 67% </th>
+    <th> 51% | 66% </th>
+    <th> 45% | 65% </th> 
+    <th> 45% | 65% </th> 
+  </tr>
+  <tr>
+    <th> Most ordered weekday </th>
+    <th> Tuesday (0.96M) </th>
+    <th> Sunday (0.61M) </th>
+    <th> Tuesday (0.68M) </th>
+    <th> Tuesday (1.96M) </th> 
+  </tr>
+</table>
+
+  <h3> Product Insights </h3>
+
+  - Dairy is the top selling cateogry with ~78% of the total orders
+  - AM Milk 250 is the most ordered product contributing to ~9.5% (1.28M units) of the total orders
+  - AM Ghee 100 is the lest sold product with 0.186M units
+  - AM Biscuits 750 has the highest LIFR (68.05%) and VOFR (96.85%) rate
+  - AM Milk 100 is the most undelivered product with 44,211 units undelivered
+  - August has the highest In-Full rate at 66.3% while June has the lowest rate at 65.7%
+  - July has the highest On-Time rate at 71.8% while May has the lowest rate at 70.5%
+  - The OTIF% rate has remained contant between 47.6% to 48.6% in the 6 months across which the data is measured.
